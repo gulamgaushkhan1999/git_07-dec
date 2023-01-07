@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata: 
+  name: pod1
+spec:
+  restartPolicy: Never
+  containers:
+    - name: c-00
+      image: gulamkhan/test:latest
+
+     
