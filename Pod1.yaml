@@ -5,6 +5,7 @@ metadata:
 spec:
   restartPolicy: Never
   containers:
+      RestartPolicy: Never
     - name: c-00
       image: gulamkhan/test:latest
       RestartPolicy: Never
