@@ -7,5 +7,6 @@ spec:
   containers:
     - name: c-00
       image: gulamkhan/test:latest
+      RestartPolicy: Never
 
      
